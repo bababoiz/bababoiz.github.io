@@ -3,19 +3,19 @@
 var imgArray = new Array();
 
 imgArray[0] = new Image();
-imgArray[0].src = 'mumsykings/halfCirclesewing.jpg';
+imgArray[0].src = 'halfCirclesewing.jpg';
 
 imgArray[1] = new Image();
-imgArray[1].src = 'mumsykings/half_circle.jpg';
+imgArray[1].src = 'half_circle.jpg';
 
 imgArray[2] = new Image();
-imgArray[2].src = 'mumsykings/halfCirclesewing.jpg';
+imgArray[2].src = 'halfCirclesewing.jpg';
 
 imgArray[3] = new Image();
-imgArray[3].src = 'mumsykings/half_circle.jpg';
+imgArray[3].src = 'half_circle.jpg';
 
 imgArray[4] = new Image();
-imgArray[4].src = 'mumsykings/halfCirclesewing.jpg';
+imgArray[4].src = 'halfCirclesewing.jpg';
 
 function nextImage(){
     var img = document.getElementById("mainImage");
@@ -47,19 +47,19 @@ function previousImage(){
 var imgArray4 = new Array();
 
 imgArray4[0] = new Image();
-imgArray4[0].src = 'mumsykings/ankara1.jpg';
+imgArray4[0].src = 'ankara1.jpg';
 
 imgArray4[1] = new Image();
-imgArray4[1].src = 'mumsykings/ankara2.jpg';
+imgArray4[1].src = 'ankara2.jpg';
 
 imgArray4[2] = new Image();
-imgArray4[2].src = 'mumsykings/ankara3.jpg';
+imgArray4[2].src = 'ankara3.jpg';
 
 imgArray4[3] = new Image();
-imgArray4[3].src = 'mumsykings/ankara4.jpg';
+imgArray4[3].src = 'ankara4.jpg';
 
 imgArray4[4] = new Image();
-imgArray4[4].src = 'mumsykings/ankara1.jpg';
+imgArray4[4].src = 'ankara1.jpg';
 
 function nextImageankara(){
     var img = document.getElementById("mainImage4");
@@ -91,19 +91,19 @@ function previousImageankara(){
 var imgArray7 = new Array();
 
 imgArray7[0] = new Image();
-imgArray7[0].src = 'mumsykings/colourfulankara1.jpg';
+imgArray7[0].src = 'colourfulankara1.jpg';
 
 imgArray7[1] = new Image();
-imgArray7[1].src = 'mumsykings/colourfulankara2.jpg';
+imgArray7[1].src = 'colourfulankara2.jpg';
 
 imgArray7[2] = new Image();
-imgArray7[2].src = 'mumsykings/colourfulankara1.jpg';
+imgArray7[2].src = 'colourfulankara1.jpg';
 
 imgArray7[3] = new Image();
-imgArray7[3].src = 'mumsykings/colourfulankara2.jpg';
+imgArray7[3].src = 'colourfulankara2.jpg';
 
 imgArray7[4] = new Image();
-imgArray7[4].src = 'mumsykings/colourfulankara1.jpg';
+imgArray7[4].src = 'colourfulankara1.jpg';
 
 function nextcolourfulankara(){
     var img = document.getElementById("mainImage7");
@@ -136,19 +136,19 @@ function previouscolourfulankara(){
 var imgArray6 = new Array();
 
 imgArray6[0] = new Image();
-imgArray6[0].src = 'mumsykings/birthdaydress1.jpeg';
+imgArray6[0].src = 'birthdaydress1.jpeg';
 
 imgArray6[1] = new Image();
-imgArray6[1].src = 'mumsykings/birthdaydress2.jpeg';
+imgArray6[1].src = 'birthdaydress2.jpeg';
 
 imgArray6[2] = new Image();
-imgArray6[2].src = 'mumsykings/birthdaydress3.jpeg';
+imgArray6[2].src = 'birthdaydress3.jpeg';
 
 imgArray6[3] = new Image();
-imgArray6[3].src = 'mumsykings/birthdaydress2.jpeg';
+imgArray6[3].src = 'birthdaydress2.jpeg';
 
 imgArray6[4] = new Image();
-imgArray6[4].src = 'mumsykings/birthdaydress3.jpeg';
+imgArray6[4].src = 'birthdaydress3.jpeg';
 
 function nextbirthdaydress(){
     var img = document.getElementById("mainImage6");

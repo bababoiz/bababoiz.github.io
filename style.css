@@ -48,6 +48,7 @@ border: 2px solid yellow;}
 
 	
 /* dresses image section*/
+.dresses{margin-top: 14%;}
 .dresses{display: flex;justify-content: center;}
 .nextprevious{display: flex;background-color: brown;
 	justify-content: space-between;font-size: 3em;color: black;

@@ -104,7 +104,7 @@
             <div class="nextd1 nextd" onclick="nextImagebrown()">&#8827;</div>
             <div class="nextd2 nextd" onclick="nextImagepurple()">&#8827;</div>
             <div class="nextd3 nextd" onclick="nextImagecolpinkful()">&#8827;</div>
-            <div class="nextd4 nextd" onclick="nextImageankara()">&#8827;</div>
+            <div class="nextd4 nextd" onclick="nextImageeid()">&#8827;</div>
         </div>
         <div class="dress1row">
             <img id="mainImage1" src="brown1.jpeg" alt="brown dress" class="brown1"/>
@@ -116,7 +116,7 @@
                 <div class="previousd1 previousd" onclick="previousImagebrown()">&#8826;</div>
                 <div class="previousd2 previousd" onclick="previousImagepurple()">&#8826;</div>
                 <div class="previousd3 previousd" onclick="previousImagecolpinkful()">&#8826;</div>
-                <div class="previousd4 previousd" onclick="previousImageankara()">&#8826;</div>
+                <div class="previousd4 previousd" onclick="previousImageeid()">&#8826;</div>
             </div>
 </div>
     <!--  -->
@@ -150,58 +150,58 @@
 <footer>
     <div class="footflex">
     <div class="col-4"><a class="foot" href="tel:+447733446886"><image class="imglogo" src="call.png" alt="call image"></image><br>Call us now on +447733446886</a></div>
-    <div class="col-4"><a class="foot" href="https://api.whatsapp.com/send?phone=009447733446886"><image class="imglogo" src="whatsapp.png" alt="whatsapp"></image><br>Chat with us on Whatsapp</a></div>
-    <div class="col-4"><a class="foot" href="mailto:lateefat.yiosese@mumsykings.co.uk"><image class="imglogo" src="email.png" alt="mail image"></image><br>Email us lateefat.yiosese@mumsykings.co.uk</pre></a></div>
+    <div class="col-4"><a class="foot" href="https://api.whatsapp.com/send?phone=009447733446886" target="_blank"><image class="imglogo" src="whatsapp.png" alt="whatsapp"></image><br>Chat with us on Whatsapp</a></div>
+    <div class="col-4"><a class="foot" href="mailto:lateefat.yiosese@mumsykings.co.uk"><image class="imglogo" src="email.png" alt="mail image"></image><br>Email us</pre></a></div>
 </div>
 </footer>
 </div>
 
 <script>
     //moving image upper banner
+    var imgArray8 = new Array();
 
-var imgArray = new Array();
+imgArray8[0] = new Image();
+imgArray8[0].src = 'eiddress1.jpg';
 
-imgArray[0] = new Image();
-imgArray[0].src = 'halfCirclesewing.jpg';
+imgArray8[1] = new Image();
+imgArray8[1].src = 'eiddress2.jpeg';
 
-imgArray[1] = new Image();
-imgArray[1].src = 'half_circle.jpg';
+imgArray8[2] = new Image();
+imgArray8[2].src = 'eiddress1.jpg';
 
-imgArray[2] = new Image();
-imgArray[2].src = 'halfCirclesewing.jpg';
+imgArray8[3] = new Image();
+imgArray8[3].src = 'eiddress2.jpeg';
 
-imgArray[3] = new Image();
-imgArray[3].src = 'half_circle.jpg';
+imgArray8[4] = new Image();
+imgArray8[4].src = 'eiddress1.jpg';
 
-imgArray[4] = new Image();
-imgArray[4].src = 'halfCirclesewing.jpg';
-
-function nextImage(){
-    var img = document.getElementById("mainImage");
-    for(var i = 0; i < imgArray.length;i++){
-        if(imgArray[i].src == img.src){
-            if(i === imgArray.length){
-                document.getElementById("mainImage").src = imgArray[0].src;
+function nextImageeid(){
+    var img = document.getElementById("mainImage8");
+    for(var i = 0; i < imgArray8.length;i++){
+        if(imgArray8[i].src == img.src){
+            if(i === imgArray8.length){
+                document.getElementById("mainImage8").src = imgArray8[0].src;
                 break;
             }
-            document.getElementById("mainImage").src = imgArray[i+1].src;
+            document.getElementById("mainImage8").src = imgArray8[i+1].src;
             break;
         }
     }
 }
-function previousImage(){
-    var img = document.getElementById("mainImage");
-    for(var i = imgArray.length-1; i >=0 ;i--){
-        if(imgArray[i].src == img.src){
-            if(i === imgArray.length){
-                document.getElementById("mainImage").src = imgArray[4].src;
+function previousImageeid(){
+    var img = document.getElementById("mainImage8");
+    for(var i = imgArray8.length-1; i >=0 ;i--){
+        if(imgArray8[i].src == img.src){
+            if(i === imgArray8.length){
+                document.getElementById("mainImage8").src = imgArray8[4].src;
                 break;
             }
-            document.getElementById("mainImage").src = imgArray[i-1].src;
+            document.getElementById("mainImage8").src = imgArray8[i-1].src;
             break;
         }
     }
 }
+
 //dress ankara functions
 var imgArray4 = new Array();
 

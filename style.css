@@ -7,7 +7,12 @@
 {.flexcontent,.flex1promo{font-size: 58%;}}
 
 @media only screen and (max-width: 700px)
-{.dresses{margin-top: 40% !important;}}
+{.dresses{margin-top: 50% !important;}}
+
+@media only screen and (min-width: 700px)
+{.collage{width: 50% !important;height:auto;margin: 0px auto !important;}}
+
+.collage{margin-top: 10%;}
 
 /* @media only screen and (max-width: 900px)
 {.flexcontent,.flex1promo{font-size: 100%;}} */

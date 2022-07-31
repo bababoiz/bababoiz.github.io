@@ -23,11 +23,11 @@
                   
             
             <!-- nav pills -->
-            <ul class="nav nav-pills bg-light lis nav-justified" role="tablist" >
+            <ul class="nav nav-pills bg-light nav-justified" role="tablist" >
                 <li class="nav-item text-dark" >
-                    <a class="nav-link active nav1" data-bs-toggle="pill" href="#Home">Home</a></li>
-                    <li class="nav-item">
-                        <a class="nav-link nav2" data-bs-toggle="pill" href="#Dresses">Dresses</a>
+                    <a class="nav-link nav1 active" data-bs-toggle="pill" href="#Home">Home</a></li>
+                <li class="nav-item">
+                    <a class="nav-link nav2" data-bs-toggle="pill" href="#Dresses">Dresses</a>
                     </li>
                  <li class="nav-item">
                     <a class="nav-link nav3" data-bs-toggle="pill" href="#Kids">Kids</a>
@@ -40,7 +40,7 @@
            
   <!-- Tab panes -->
   <div class="tab-content">   
-    <div id="Home" class="container tab-pane active"><br>             
+    <div id="Home" class="tab-pane container active"><br>             
 <!-- Carousel -->
 <div id="demo" class="carousel slide movingp" data-bs-ride="carousel">
 
@@ -69,12 +69,101 @@
       <span class="carousel-control-next-icon"></span>
     </button>
   </div>
+<!-- adding a dress section to homepage pane -->
+<div class="dress1row">
+    <img id="mainImage1" src="red1.jpg" alt="brown dress" class="btn brown1" data-bs-toggle="modal" data-bs-target="#myModal21"/>
+    <img id="mainImage2" src="purple1.jpg" alt="purple dress" class="btn purple1" data-bs-toggle="modal" data-bs-target="#myModal22"/>
+    <img id="mainImage3" src="mix1.jpg" alt="colpinkful dress" class="btn colpinkful1" data-bs-toggle="modal" data-bs-target="#myModal23" />
+    <img id="mainImage4" src="ankara1.jpg" alt="ankara" class="btn ankara1" data-bs-toggle="modal" data-bs-target="#myModal24"/>
     </div>
+<!-- end of dress added to homeepage pane -->
+    </div>
+  
     <div id="Dresses" class="container tab-pane fade"><br>
-        <div class="dresses">
-            <div><h2>Beautiful dresses in different forms, culture and beauty</h2> </div>
-        </div>
-        <div class="container-fluid">
+        <!-- <div class="dresses"> -->
+            <!-- <div class="dresses"><h2>Beautiful dresses in different forms, culture and beauty</h2> </div> -->
+        <!-- </div> -->
+<!-- Carousel -->
+
+<div id="demo1" class="carousel slide movingp" data-bs-ride="carousel">
+    <h2 style="text-align: center;">Beautiful dresses sewn by mumsykings</h2>
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo1" data-bs-slide-to="3"></button>
+      <!-- <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button> -->
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Collagesnapshot.png" alt="" class="btn d-block w-100 collage" data-bs-toggle="modal" data-bs-target="#myModal">
+      </div>
+      <div class="carousel-item">
+        <img src="Collagesnapshot1.png" alt="sewing" class="btn d-block w-100 collage" data-bs-toggle="modal" data-bs-target="#myModal1">
+      </div>
+      <div class="carousel-item">
+        <img src="Collagesnapshot2.png" alt="sewing" class="btn d-block w-100 collage" data-bs-toggle="modal" data-bs-target="#myModal2">
+      </div>
+      <div class="carousel-item">
+        <img src="Collagesnapshot3.png" alt="sewing" class="btn d-block w-100 collage" data-bs-toggle="modal" data-bs-target="#myModal3">
+      </div>
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <button class= "carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+      
+        <!-- end of carousel dress1 -->
+            <!-- start of carousel2 -->
+        <div id="demo2" class="carousel slide movingp" data-bs-ride="carousel">
+            <h2 style="text-align: center;">More Beautiful dresses sewn by mumsykings</h2>
+        
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo2" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo2" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo2" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#demo2" data-bs-slide-to="3"></button>
+              <!-- <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button> -->
+            </div>
+          
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Collagesnapshot4.png" alt="" class="btn d-block w-100 collage" data-bs-toggle="modal" data-bs-target="#myModal4">
+              </div>
+              <div class="carousel-item">
+                <img src="Collagesnapshot5.png" alt="sewing" class="btn d-block w-100 collage" data-bs-toggle="modal" data-bs-target="#myModal5">
+              </div>
+              <div class="carousel-item">
+                <img src="Collagesnapshot6.png" alt="sewing" class="btn d-block w-100 collage" data-bs-toggle="modal" data-bs-target="#myModal6">
+              </div>
+              <div class="carousel-item">
+                <img src="Collagesnapshot7.png" alt="sewing" class="btn d-block w-100 collage" data-bs-toggle="modal" data-bs-target="#myModal7">
+              </div>
+            </div>
+          
+            <!-- Left and right controls/icons -->
+            <button class= "carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+  
+        
+
+        <!-- <div class="container-fluid">
         <div class="nextprevious">
             <div class="nextd1 nextd" onclick="nextwhitebrown()">&#8827;</div>
             <div class="nextd2 nextd" onclick="nextbirthdaydress()">&#8827;</div>
@@ -93,8 +182,8 @@
             <div class="previousd2 previousd" onclick="previousbirthdaydress()">&#8826;</div>
             <div class="previousd3 previousd" onclick="previouscolourfulankara()">&#8826;</div>
             <div class="previousd4 previousd" onclick="previousImageeid()">&#8826;</div>
-        </div>
-        
+        </div> -->
+<!--         
         <div class="dress2title">
         <div><h2>More beautiful dresses from musmykings fashion </h2></div>
         </div>
@@ -103,34 +192,68 @@
             <div class="nextd2 nextd" onclick="nextImagepurple()">&#8827;</div>
             <div class="nextd3 nextd" onclick="nextImagecolpinkful()">&#8827;</div>
             <div class="nextd4 nextd" onclick="nextImageankara()">&#8827;</div>
-        </div>
+        </div> -->
         <div class="dress1row">
-            <img id="mainImage1" src="brown1.jpeg" alt="brown dress" class="btn brown1" data-bs-toggle="modal" data-bs-target="#myModal4"/>
-            <img id="mainImage2" src="purple1.jpg" alt="purple dress" class="btn purple1" data-bs-toggle="modal" data-bs-target="#myModal5"/>
-            <img id="mainImage3" src="colpinkful1.jpg" alt="colpinkful dress" class="btn colpinkful1" data-bs-toggle="modal" data-bs-target="#myModal6" />
-            <img id="mainImage4" src="ankara1.jpg" alt="ankara" class="btn ankara1" data-bs-toggle="modal" data-bs-target="#myModal7"/>
+            <img id="mainImage1" src="red1.jpg" alt="brown dress" class="btn brown1" data-bs-toggle="modal" data-bs-target="#myModal21"/>
+            <img id="mainImage2" src="purple1.jpg" alt="purple dress" class="btn purple1" data-bs-toggle="modal" data-bs-target="#myModal22"/>
+            <img id="mainImage3" src="mix1.jpg" alt="colpinkful dress" class="btn colpinkful1" data-bs-toggle="modal" data-bs-target="#myModal23" />
+            <img id="mainImage4" src="ankara1.jpg" alt="ankara" class="btn ankara1" data-bs-toggle="modal" data-bs-target="#myModal24"/>
             </div>
-            <div class="nextprevious">
+            <!-- <div class="nextprevious">
                 <div class="previousd1 previousd" onclick="previousImagebrown()">&#8826;</div>
                 <div class="previousd2 previousd" onclick="previousImagepurple()">&#8826;</div>
                 <div class="previousd3 previousd" onclick="previousImagecolpinkful()">&#8826;</div>
                 <div class="previousd4 previousd" onclick="previousImageankara()">&#8826;</div>
-            </div>
+            </div> -->
 </div>
-    <!--  -->
-    <div id="Kids" class="container tab-pane fade kids" ><br>
-        <div class="dresses">
-            <div><h2>Beautiful kids clothes for boys and girls</h2> </div>
-        </div>
-    <div class="nextprevious">
-        <div class="nextd4 nextd"></div>
-    </div>
-    </div>
+
+  
+<div id="Kids" class="container tab-pane fade kids" ><br>
+            
+            <!-- start of carousel2 -->
+            <div id="demo3" class="carousel slide movingp" data-bs-ride="carousel">
+                <h2 style="text-align: center;">Beautiful kids clothes for boys and girls</h2>
+            
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#demo3" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#demo3" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#demo3" data-bs-slide-to="2"></button>
+                  <button type="button" data-bs-target="#demo3" data-bs-slide-to="3"></button>
+                  <!-- <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button> -->
+                </div>
+              
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="kiddress1.jpg" alt="" class="btn d-block w-100 collage" data-bs-toggle="modal" data-bs-target="#myModal25">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="kiddress2.jpg" alt="sewing" class="btn d-block w-100 collage" data-bs-toggle="modal" data-bs-target="#myModal26">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="kiddress3.jpg" alt="sewing" class="btn d-block w-100 collage" data-bs-toggle="modal" data-bs-target="#myModal27">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="kiddress4.jpg" alt="sewing" class="btn d-block w-100 collage" data-bs-toggle="modal" data-bs-target="#myModal28">
+                  </div>
+                </div>
+              
+                <!-- Left and right controls/icons -->
+                <button class= "carousel-control-prev" type="button" data-bs-target="#demo3" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo3" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+               
+
     <div class="dress1row">
-    <img id="" src="kidcol1.jpeg" alt="brown dress" class="btn brown1" data-bs-toggle="modal" data-bs-target="#myModal8"/>
-    <img id="" src="kidcreamblue1.jpeg" alt="purple dress" class="btn purple1" data-bs-toggle="modal" data-bs-target="#myModal9"/>
-    <img id="" src="kid5.jpeg" alt="colpinkful dress" class="btn colpinkful1" data-bs-toggle="modal" data-bs-target="#myModal10"/>
-    <img id="" src="kid6.jpeg" alt="ankara" class="btn ankara1" data-bs-toggle="modal" data-bs-target="#myModal11"/>
+    <img id="" src="kid5.jpg" alt="kid clothe" class="btn brown1" data-bs-toggle="modal" data-bs-target="#myModal8"/>
+    <img id="" src="kidcreamblue1.jpg" alt="kid clothe" class="btn purple1" data-bs-toggle="modal" data-bs-target="#myModal9"/>
+    <img id="" src="kid9.jpg" alt="kid clothes" class="btn colpinkful1" data-bs-toggle="modal" data-bs-target="#myModal10"/>
+    <img id="" src="kid6.jpg" alt="kid clothes" class="btn ankara1" data-bs-toggle="modal" data-bs-target="#myModal11"/>
     </div>
     </div>
     <div class="dress1row">
@@ -139,22 +262,44 @@
     <img id="" src="kids4.jpeg" alt="colpinkful dress" class="btn colpinkful1" data-bs-toggle="modal" data-bs-target="#myModal14"/>
     <img id="" src="kids5.jpeg" alt="ankara" class="btn ankara1" data-bs-toggle="modal" data-bs-target="#myModal15"/>
     </div>
-    <div class="nextprevious">
+  </div>
+  </div>
+    <!-- <div class="nextprevious">
         <div class="previousd4 previousd" onclick="previousImageankara()"></div>
-    </div>    
+    </div>    -->
+     
     <!--  -->
 
 <div id="contact" class="container tab-pane active foot"><br>
 <footer>
     <div class="footflex">
     <div class="col-4"><a class="foot" href="tel:+447733446886"><image class="imglogo" src="call.png" alt="call image"></image><br>Call us now on +447733446886</a></div>
-    <div class="col-4"><a class="foot" href="https://api.whatsapp.com/send?phone=07733446886" target="_blank"><image class="imglogo" src="whatsapp.png" alt="whatsapp"></image><br>Chat with us on Whatsapp</a></div>
+    <div class="col-4"><a class="foot" href="https://web.whatsapp.com/send?phone=07733446886" target="_blank"><image class="imglogo" src="whatsapp.png" alt="whatsapp"></image><br>Chat with us on Whatsapp</a></div>
     <div class="col-4"><a class="foot" href="mailto:lateefat.yiosese@mumsykings.co.uk"><image class="imglogo" src="email.png" alt="mail image"></image><br>Email us</pre></a></div>
 </div>
 </footer>
 </div>
 <!-- start modal -->
 <!-- <img src="Fadlullah.jpeg" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" > -->
+
+<!-- The Modal -->
+<div class="modal" id="myModal17">
+    <div class="modal-dialog">
+      <div class="modal-content">
+           
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        <!-- Modal body -->
+        <div class="modal-body"><img src="halfCirclesewing.jpg" style="width:auto;height: 100%;">
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+      </div>
+  
+  <!-- end modal -->
+
    
 <!-- The Modal -->
 <div class="modal" id="myModal">
@@ -163,7 +308,7 @@
            
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         <!-- Modal body -->
-        <div class="modal-body"><img src="ankara_whitebrown1.jpeg" style="width:100%;height: auto;">
+        <div class="modal-body"><img src="Collagesnapshot.png" style="width:100%;height: auto;">
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
@@ -183,7 +328,7 @@
            
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         <!-- Modal body -->
-        <div class="modal-body" ><img src="birthdaydress1.jpeg" style="width:100%;height: auto;">
+        <div class="modal-body" ><img src="Collagesnapshot1.png" style="width:100%;height: auto;">
         </div>
         <!-- Modal footer -->
         <div class="modal-footer">
@@ -202,7 +347,7 @@
            
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         <!-- Modal body -->
-        <div class="modal-body"><img src="colourfulankara1.jpg" style="width:100%;height: auto;">
+        <div class="modal-body"><img src="Collagesnapshot2.png" style="width:100%;height: auto;">
         </div>
         <!-- Modal footer -->
         <div class="modal-footer">
@@ -221,7 +366,7 @@
            
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         <!-- Modal body -->
-        <div class="modal-body"><img src="eiddress1.jpg" style="width:100%;height: auto;">
+        <div class="modal-body"><img src="Collagesnapshot3.png" style="width:100%;height: auto;">
         </div>
         <!-- Modal footer -->
         <div class="modal-footer">
@@ -240,7 +385,7 @@
            
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         <!-- Modal body -->
-        <div class="modal-body"><img src="brown1.jpeg" style="width:100%;height: auto;">
+        <div class="modal-body"><img src="Collagesnapshot4.png" style="width:100%;height: auto;">
         </div>
         <!-- Modal footer -->
         <div class="modal-footer">
@@ -259,7 +404,7 @@
            
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         <!-- Modal body -->
-        <div class="modal-body"><img src="purple1.jpg" style="width:100%;height: auto;">
+        <div class="modal-body"><img src="Collagesnapshot5.png" style="width:100%;height: auto;">
         </div>
         <!-- Modal footer -->
         <div class="modal-footer">
@@ -278,7 +423,7 @@
            
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         <!-- Modal body -->
-        <div class="modal-body"><img src="colpinkful1.jpg" style="width:100%;height: auto;">
+        <div class="modal-body"><img src="Collagesnapshot6.png" style="width:100%;height: auto;">
         </div>
         <!-- Modal footer -->
         <div class="modal-footer">
@@ -297,7 +442,7 @@
            
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         <!-- Modal body -->
-        <div class="modal-body"><img src="ankara1.jpg" style="width:100%;height: auto;">
+        <div class="modal-body"><img src="Collagesnapshot7.png" style="width:100%;height: auto;">
         </div>
         <!-- Modal footer -->
         <div class="modal-footer">
@@ -316,7 +461,7 @@
                
             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             <!-- Modal body -->
-            <div class="modal-body"><img src="kidcol1.jpeg" style="width:100%;height: auto;">
+            <div class="modal-body"><img src="kid5.jpg" style="width:100%;height: auto;">
             </div>
             <!-- Modal footer -->
         <div class="modal-footer">
@@ -335,7 +480,7 @@
            
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         <!-- Modal body -->
-        <div class="modal-body"><img src="kidcreamblue1.jpeg" style="width:100%;height: auto;">
+        <div class="modal-body"><img src="kidcreamblue1.jpg" style="width:100%;height: auto;">
         </div>
         <!-- Modal footer -->
         <div class="modal-footer">
@@ -354,7 +499,7 @@
                
             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             <!-- Modal body -->
-            <div class="modal-body"><img src="kid5.jpeg" style="width:100%;height: auto;">
+            <div class="modal-body"><img src="kid9.jpg" style="width:100%;height: auto;">
             </div>
             <!-- Modal footer -->
         <div class="modal-footer">
@@ -373,7 +518,7 @@
            
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         <!-- Modal body -->
-        <div class="modal-body"><img src="kid6.jpeg" style="width:100%;height: auto;">
+        <div class="modal-body"><img src="kid6.jpg" style="width:100%;height: auto;">
         </div>
         <!-- Modal footer -->
         <div class="modal-footer">
@@ -461,7 +606,191 @@
   
   <!-- end modal -->
 
-    
+  <div class="modal" id="myModal21">
+    <div class="modal-dialog">
+      <div class="modal-content">
+           
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        <!-- Modal body -->
+        <div class="modal-body"><img src="red1.jpg" style="width:100%;height: auto;">
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+      </div>
+<!-- start of another modal -->
+      <div class="modal" id="myModal21">
+        <div class="modal-dialog">
+          <div class="modal-content">
+               
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            <!-- Modal body -->
+            <div class="modal-body"><img src="red1.jpeg" style="width:100%;height: auto;">
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+          </div>
+          </div>
+          </div>
+    <!-- modal biz starts here -->
+          <div class="modal" id="myModal22">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                   
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                <!-- Modal body -->
+                <div class="modal-body"><img src="purple1.jpg" style="width:100%;height: auto;">
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+              </div>
+              </div>
+              </div>
+        
+              <!-- starts here  -->
+              <div class="modal" id="myModal23">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                       
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    <!-- Modal body -->
+                    <div class="modal-body"><img src="mix1.jpg" style="width:100%;height: auto;">
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      </div>
+                  </div>
+                  </div>
+                  </div>
+            
+                  <div class="modal" id="myModal23">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                           
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <!-- Modal body -->
+                        <div class="modal-body"><img src="mix1.jpg" style="width:100%;height: auto;">
+                        </div>
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                          </div>
+                      </div>
+                      </div>
+                      </div>
+                
+                      <div class="modal" id="myModal24">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                               
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            <!-- Modal body -->
+                            <div class="modal-body"><img src="ankara1.jpg" style="width:100%;height: auto;">
+                            </div>
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                              </div>
+                          </div>
+                          </div>
+                          </div>
+                    
+                          <div class="modal" id="myModal25">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                   
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                <!-- Modal body -->
+                                <div class="modal-body"><img src="kiddress1.jpg" style="width:100%;height: auto;">
+                                </div>
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                  </div>
+                              </div>
+                              </div>
+                              </div>
+                        
+                          <!-- modal end -->
+
+                          <div class="modal" id="myModal26">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                   
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                <!-- Modal body -->
+                                <div class="modal-body"><img src="kiddress2.jpg" style="width:100%;height: auto;">
+                                </div>
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                  </div>
+                              </div>
+                              </div>
+                              </div>
+                        
+                              <!-- modal end -->
+                            
+                              <div class="modal" id="myModal27">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                       
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    <!-- Modal body -->
+                                    <div class="modal-body"><img src="kiddress3.jpg" style="width:100%;height: auto;">
+                                    </div>
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                      </div>
+                                  </div>
+                                  </div>
+                                  </div>
+                            
+                              <!-- modal end -->
+
+                              <div class="modal" id="myModal28">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                       
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    <!-- Modal body -->
+                                    <div class="modal-body"><img src="kiddress4.jpg" style="width:100%;height: auto;">
+                                    </div>
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                      </div>
+                                  </div>
+                                  </div>
+                                  </div>
+                            
+                              <!-- modal end -->
+                          <div class="modal" id="myModal51">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                   
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                <!-- Modal body -->
+                                <div class="modal-body"><img src="wix1.jpg" style="width:100%;height: auto;">
+                                </div>
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                  </div>
+                              </div>
+                              </div>
+                              </div>
+                        
+
 <script>
     //moving image upper banner
     var imgArray8 = new Array();

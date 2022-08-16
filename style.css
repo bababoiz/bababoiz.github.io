@@ -67,7 +67,7 @@ border: 2px solid yellow;}
 .previousd:active{background-color:red;}
 .dress1row{display: flex;margin-top: 10px;
 		justify-content: space-between;}
-.brown1, .purple1, .colpinkful1,.ankara1{width: 20%;height: auto}
+.brown1, .purple1, .colpinkful1,.ankara1{width: 25%;height: auto;object-fit: cover;}
 	 /* dress image section 2*/
 .kids{margin-top: 1%;}
 .nexd4{color: brown !important;}

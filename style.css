@@ -1,18 +1,20 @@
-.movingp{margin-top: 11%;}
 
-@media only screen and (max-width: 600px)
-{.movingp{margin-top: 45%;}}
+
+/* .movingp{margin-top: 11%;} */
+
+/* @media only screen and (max-width: 600px) */
+/* {.movingp{margin-top: 45%;}} */
 
 @media only screen and (max-width: 700px)
 {.flexcontent,.flex1promo{font-size: 58%;}}
 
-@media only screen and (max-width: 700px)
-{.dresses{margin-top: 50% !important;}}
+/* @media only screen and (max-width: 700px) */
+/* {.dresses{margin-top: 50% !important;}} */
 
 @media only screen and (min-width: 700px)
 {.collage{width: 50% !important;height:auto;margin: 0px auto !important;}}
 
-.collage{margin-top: 10%;}
+/* .collage{margin-top: 10%;} */
 
 /* @media only screen and (max-width: 900px)
 {.flexcontent,.flex1promo{font-size: 100%;}} */
@@ -67,7 +69,7 @@ border: 2px solid yellow;}
 
 	
 /* dresses image section*/
-.dresses{margin-top: 14%;}
+/* .dresses{margin-top: 14;} */
 .dresses{display: flex;justify-content: center;}
 .nextprevious{display: flex;background-color: brown;
 	justify-content: space-between;font-size: 3em;color: black;
@@ -80,11 +82,11 @@ border: 2px solid yellow;}
 		justify-content: space-between;}
 .brown1, .purple1, .colpinkful1,.ankara1{width: 25%;height: auto;object-fit: cover;}
 	 /* dress image section 2*/
-.kids{margin-top: 1%;}
+/* .kids{margin-top: 1%;} */
 .nexd4{color: brown !important;}
 .whitebrown1,.birthdaydress1,.colourfulankara1,.eiddress1{width: 20%;
 	height: auto;}
-	.dress2row{display: flex;margin-top: 10px;
+	.dress2row{display: flex;margin-top: ;
 		justify-content: space-between;}
 footer{background-color: brown;opacity: 1;}
 .imglogo{height: 3em;margin-top: 1em;}
